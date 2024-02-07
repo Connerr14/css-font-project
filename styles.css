@@ -1,0 +1,181 @@
+
+/* 
+    Styles for the body element.
+    - Sets margin and padding to 0.
+    - Sets box-sizing to border-box.
+    - Sets background color to #f4f4f4.
+*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* 
+    Styles for the header element.
+    - Sets display to flex.
+    - Sets flex-direction to column.
+    - Sets justify-content to center.
+    - Sets align-items to center.
+    - Sets margin-bottom to 65px.
+*/
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+/* 
+    Styles for the h1 element inside the header.
+    - Sets font-family to 'Protest Riot', sans-serif.
+    - Sets font-size to 4rem.
+    - Sets margin to 35px.
+*/
+header h1 {
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 4rem;
+    margin: 35px;
+}
+
+/* 
+    Styles for the img element inside the header.
+    - Sets width to 250px.
+    - Sets height to 250px.
+*/
+header img {
+    width: 250px;
+    height: 250px;
+}
+
+/* 
+    Styles for the p element inside the header.
+    - Sets font-size to 20px.
+    - Sets margin to 20px.
+*/
+header p {
+    font-size: 20px;
+    margin: 20px;
+}
+
+/* 
+    Styles for the section element.
+    - Sets text-align to center.
+*/
+section {
+    text-align: center;
+}
+
+/* 
+    Styles for the element with id 'fullSong'.
+    - Sets font-size to 35px.
+    - Sets width to 80%.
+    - Sets margin to 0 auto.
+    - Sets line-height to 3.2.
+    - Sets margin-bottom to 50px.
+*/
+#fullSong {
+  font-size: 35px;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 3.2;
+  margin-bottom: 50px;
+}
+
+/* 
+    Styles for the p element inside the section element.
+    - Sets font-size to 45px.
+    -Sets text-decoration to underline.
+
+    - Did this so that the user can distinguish the starting point of the song easier.
+
+*/
+section p::first-letter {
+    text-decoration: underline;
+    font-size: 45px;
+}
+
+
+/* 
+    Styles for elements with class 'action' and 'request'.
+    - Sets font-family to 'Protest Riot', sans-serif.
+    - Sets color to rgba(0, 0, 0, 0.646).
+*/
+.action, .request {
+    font-family: 'Protest Riot', sans-serif;
+    color: rgba(0, 0, 0, 0.646);
+}
+
+/* 
+    Styles for elements with class 'action'.
+    - Sets color to rgba(0, 0, 0, 0.646).
+*/
+.action {
+    color: rgba(0, 0, 0, 0.646);
+}
+
+/* 
+    Styles for elements with class 'emotion' and 'pace'.
+    - Sets font-family to 'Single Day', cursive.
+*/
+.emotion, .pace {
+    font-family: 'Single Day', cursive;
+}
+
+/* 
+    Styles for elements with class 'emotion'.
+    - Sets color to rgb(0, 0, 0).
+*/
+.emotion {
+    color: rgb(0, 0, 0);
+}
+
+/* 
+    Styles for elements with class 'whisper'.
+    - Sets font-size to 30px.
+    - Sets font-family to 'Whisper', cursive.
+*/
+.whisper {
+    font-size: 30px;
+    font-family: 'Whisper', cursive;
+}
+
+/* 
+    Styles for elements with class 'pace'.
+    - Sets letter-spacing to 0.6em.
+*/
+.pace {
+    letter-spacing: 0.6em;
+}
+
+/* 
+    Styles for elements with class 'reflection'.
+    - Sets font-family to 'Protest Revolution', sans-serif.
+    - Sets color to rgba(0, 0, 0, 0.646).
+*/
+.reflection {
+    font-family: 'Protest Revolution', sans-serif;
+    color: rgba(0, 0, 0, 0.646);
+}
+
+/* 
+    Styles for elements with class 'request'.
+    - Sets color to rgba(0, 0, 0, 0.473).
+*/
+.request {
+    color: rgba(0, 0, 0, 0.473);
+}
+
+/* 
+    Styles for than span elements inside a span element. (the last word)
+    - Sets letter-spacing to 0.3em.
+*/
+span > span {
+    letter-spacing: 0.3em;
+}
+
+/* 
+    Note, I picked my fonts in a way in which saved me time from changing the weight and size in the css file itself.
+*/
